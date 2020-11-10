@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (min-width: 992px) {
 	.header {
 		margin: 0 80px;
 	}
@@ -14,7 +14,7 @@
 		}
 	}
 }
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.conteiner {
 		width: 700px;
 		margin: 0 auto;
@@ -65,8 +65,11 @@
 	}
 	.advantage {
 		padding: 55px 0 65px 0;
-		&__header {
-			font-size: 25px;
+		}
+		.title {
+			&-mobile {
+				font-size: 26px;
+			}
 		}
 		&__block {
 			margin-left: 20px;
@@ -82,9 +85,33 @@
 		&__comment {
 			font-size: 11px;
 		}
+	
+
+	.title {
+		&__left-mobile {
+			font-size: 30px;
+			text-align: center;
+		}
 	}
+	.consultation {
+		min-height: 600px;
+		padding: 50px 0;
+		&__descr {
+		text-align: center;
+		margin-top: 50px;
+		}	
+	}
+	.feed-form {
+		margin: 0 auto;
+		margin-top: 30px;
+		.button__submit {
+			width: 100%;
+			font-size: 14px;
+		}
+	}
+
 }
-@media (min-width: 575px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
 	.conteiner {
 		width: 100%;
 	}
@@ -136,9 +163,12 @@
 	}
 	.advantage {
 		padding: 40px 0 78px 0;
-		&__header {
-			font-size: 24px;
-		}&__blocks {
+		.title {
+			&-mobile {
+				font-size: 26px;
+			}
+		}
+		&__blocks {
 			flex-direction: column;
 			align-items: center;
 			margin-top: 35px;
@@ -157,6 +187,32 @@
 			margin-top: 10px;
 		}
 	}
+	.title {
+		&__left-mobile {
+			font-size: 30px;
+			text-align: center;
+		}
+	}
+	.consultation {
+		padding: 50px 0;
+		min-height: 550px;
+		&__descr {
+		text-align: center;
+		margin-top: 50px;
+		}	
+	}
+	.feed-form {
+		margin: 0 auto;
+		margin-top: 30px;
+		width: 270px;
+		.button__submit {
+			width: 100%;
+			font-size: 14px;
+		}
+		input {
+			height: 45px;
+		}
+	}
 }
 @media (min-width: 320px) and (max-width: 575px) {
 	.conteiner {
@@ -165,6 +221,9 @@
 	.header {
 		display: flex;
 		flex-direction: column;
+		&__logo {
+			width: 140px;
+		}
 		&__oficial {
 			display: none;
 		}
@@ -173,7 +232,7 @@
 		}
 		&__phone {
 			font-size: 16px;
-			&__mobile {
+			&-mobile {
 				width: 300px;
 				text-align: center;
 			}
@@ -223,8 +282,10 @@
 	}
 	.advantage {
 		padding: 40px 0 78px 0;
-		&__header {
-			font-size: 18px;
+		.title {
+			&-mobile {
+				font-size: 18px;
+			}
 		}
 		&__blocks {
 			flex-direction: column;
@@ -244,6 +305,39 @@
 		}
 		&__comment {
 			margin-top: 5px;
+		}
+	}
+	.title {
+		&__left-mobile {
+			margin-right: 20px;
+			margin-left: 20px;
+			font-size: 18px;
+			text-align: center;
+		}
+	}
+	.consultation {
+		min-height: 500px;
+		padding: 50px 0;
+		&__descr {
+		text-align: center;
+		margin-top: 40px;
+		font-size: 14px;
+		margin-right: 30px;
+		margin-left: 30px;
+		}	
+	}
+	.feed-form {
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 250px;
+		.button__submit {
+			width: 100%;
+			font-size: 14px;
+			height: 40px;
+			margin-top: 0;
+		}
+		input {
+			height: 40px;
 		}
 	}
 }
