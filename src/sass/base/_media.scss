@@ -503,4 +503,27 @@
 			}
 		}
 	}
+	.footer {
+		height: 500px;
+		&__info {
+			width: 250px;
+			height: 180px;
+			padding: 20px 20px;
+		}
+		&__adress {
+			font-size: 12px;
+		}
+		&__phone {
+			font-size: 16px;
+		}
+		&__social {
+			display: flex;
+			justify-content: center;
+			a {
+				img {
+					width: 35px;
+				}
+			}
+		}
+	}
 }
