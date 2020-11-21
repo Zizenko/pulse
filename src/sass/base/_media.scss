@@ -526,4 +526,19 @@
 			}
 		}
 	}
+	.modal {
+		width: 250px;
+		min-height: 300px;
+		padding: 30px 20px 20px 20px;
+		&__close {
+			right: 10px;
+			top: 10px;
+		}
+		input {
+			height: ;: 30px;
+		}
+	}
+	.feed-form {
+		width: 200px;
+	}
 }

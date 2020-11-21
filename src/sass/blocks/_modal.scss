@@ -18,7 +18,7 @@
 	&__close {
 		position: absolute;
 		top: 0;
-		right: -40px;
+		right: 40px;
 		font-size: 40px;
 		line-height: 21px;
 		color: $main-color;
@@ -41,7 +41,12 @@
 	&-mini {
 		min-height: 140px;
 	}
+	.error {
+		border: 1px solid red;
+	}
 }
+
+
 #consultation, #order, #thanks {
 	display: none;
 }
